@@ -1,0 +1,24 @@
+install express - npm i express
+
+----server mongodb integration-----
+--------------------------------------
+
+-mongoose  - library to integate server and db
+      ->  npm i mongoose 
+
+  //1 import mongoose 
+
+  //2. state connection string via mongoose    
+
+  //3. define a car database model
+
+  //4.export the schema to use in another files
+
+
+  ANGULAR SERVER INTEGRATION / FRONTEND - BACKEND INTEGRATION
+  -----------------------------------------------------------------
+
+  angular and node integration module - CORS (cross origin resource sharing)
+
+  4200 - 3000
+   npm i cors

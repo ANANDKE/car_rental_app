@@ -1,0 +1,64 @@
+body {
+    height: 600px;
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+  }
+    h1 {
+      color: #6496b1;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #687582;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+  i {
+    color: #66a4bc;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .card {
+    background: white;
+    padding: 60px;
+    border-radius: 24px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+    height: 440px;
+  }
+  button {
+    position: absolute;
+    margin-left: -267px;
+    margin-top: 370px;
+    grid-area: btn;
+    height: 36px;
+    width: 198px;
+background-color: rgba(16, 97, 12, 0.731); 
+    border-radius: 5px;
+    border: none !important;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 13.5px;
+    color: #d0e0e8;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button span {
+    margin-left: 3px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: #fff;
+  }

@@ -1,0 +1,223 @@
+{
+    "cars": [
+      { 
+       "id": 1,
+       "carName": "Range Rover Evoque",
+       "categoryId":2,
+       "description":"Luxury Suv",
+       "year":2022,
+       "milage":5000,
+       "amount":10000,
+       "carImage":"https://imgd.aeplcdn.com/664x374/cw/ec/37721/Land-Rover-New-Range-Rover-Evoque-Exterior-170043.jpg?wm=0&q=75",
+       "carVideo":"https://youtu.be/QQLoc0CUyX0"
+     },
+     { 
+       "id": 2,
+       "carName": "Maruti Suzuki Grand Vitara",
+       "categoryId":2,
+       "description":"Hybrid Suv",
+       "year":2022,
+       "milage":6000,
+       "amount":10000,
+       "carImage":"https://imgd.aeplcdn.com/310x174/n/cw/ec/123185/grand-vitara-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+       "carVideo":"https://youtu.be/TVF3VIUctZQ"
+     },
+     { 
+       "id": 3,
+       "carName": "Tata Altroz",
+       "categoryId":3,
+       "description":"Premium Hatchback",
+       "year":2022,
+       "milage":7000,
+       "amount":10000,
+       "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/32597/altroz-exterior-right-front-three-quarter-79.jpeg?isig=0&q=75",
+       "carVideo":"https://youtu.be/2mmDHQXkGMo"
+     }, 
+     { 
+       "id": 4,
+       "carName": "Hyundai Verna",
+       "categoryId":1,
+       "description":"Premium Sedan",
+       "year":2022,
+       "milage":8000,
+       "amount":10000,
+       "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/41197/hyundai-verna-right-front-three-quarter7.jpeg?q=75",
+       "carVideo":"https://youtu.be/Arrxeh1Svww"
+     },
+     { 
+       "id": 5,
+       "carName": "Land Rover Defender",
+       "categoryId":2,
+       "description":"Luxury Suv",
+       "year":2022,
+       "milage":9800,
+       "amount":10000,
+       "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/55215/exterior-right-front-three-quarter.jpeg?q=75",
+       "carVideo":"https://youtu.be/e1r3Ce3129w"
+     },
+     { 
+      "id": 6,
+      "carName": "BMW 3 Series",
+      "categoryId":1,
+      "description":"Luxury Sedan",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/139177/3-series-gran-limousine-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/e_4zrIRXO8c"
+    },
+    { 
+      "id": 7,
+      "carName": "Mercedes Benz G-Class",
+      "categoryId":2,
+      "description":"Luxury Suv",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/cw/ec/36129/MercedesBenz-GClass-Exterior-137817.jpg?wm=0&q=75",
+      "carVideo":"https://youtu.be/HB1pbvWJu2o"
+    }, { 
+      "id": 8,
+      "carName": "Mahindra XUV 700",
+      "categoryId":2,
+      "description":" Suv",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/PI2AfIKdcZg"
+    },
+    { 
+      "id": 9,
+      "carName": "Mercedes Benz S-Class",
+      "categoryId":1,
+      "description":"Luxury Sedan",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/115149/maybach-s-class-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/gsA-uMS52gY"
+    },
+    { 
+      "id": 10,
+      "carName": "Mercedes-Benz AMG A45 S",
+      "categoryId":3,
+      "description":"Premium Hatchback",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/106785/exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/nrLJulbV2mY"
+    },
+    { 
+      "id": 11,
+      "carName": "Citroen C3",
+      "categoryId":3,
+      "description":"Hatchback",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/103611/exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/kH0RW-CiGpI"
+    },
+    { 
+      "id": 12,
+      "carName": "Toyota Fortuner",
+      "categoryId":2,
+      "description":"Luxury Suv",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?q=75",
+      "carVideo":"https://youtu.be/PrROTdfvsaw"
+    },
+    { 
+      "id": 13,
+      "carName": "Maruti Suzuki Swift",
+      "categoryId":3,
+      "description":"Hatchback",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/54399/exterior-right-front-three-quarter-10.jpeg?q=75",
+      "carVideo":"https://youtu.be/JkITnE0hTfo"
+    },
+    { 
+      "id": 14,
+      "carName": "Volkswagen Virtus",
+      "categoryId":1,
+      "description":"Premium Sedan",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/101055/virtus-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/22Nwt9ED_bY"
+    },
+    { 
+      "id": 15,
+      "carName": "Porsche Cayenne",
+      "categoryId":2,
+      "description":"Luxury Suv",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/cw/ec/32951/Porsche-Cayenne-Exterior-138359.jpg?wm=0&q=75",
+      "carVideo":"https://youtu.be/aW_Q2pu9L0Q"
+    },
+    { 
+      "id": 16,
+      "carName": "BMW M5 ",
+      "categoryId":1,
+      "description":"Perfomence Sedan",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/50723/m5-exterior-right-front-three-quarter-2.jpeg?q=75",
+      "carVideo":"https://youtu.be/1tFVpHS7At0"
+    },
+    { 
+      "id": 17,
+      "carName": "BMW X6",
+      "categoryId":2,
+      "description":"Perfomence SUV",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/41375/x6-exterior-right-front-three-quarter.jpeg?q=75",
+      "carVideo":"https://youtu.be/iev-x7VFuMI"
+    },
+    { 
+      "id": 18,
+      "carName": "Audi RS5",
+      "categoryId":1,
+      "description":"Perfomance Sedan",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/100073/rs5-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/CDO_ymEfLA8"
+    },
+    { 
+      "id": 19,
+      "carName": "Hyundai i20 N Line",
+      "categoryId":3,
+      "description":"Hatchback",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/100121/i20-n-line-exterior-right-front-three-quarter-12.jpeg?isig=0&q=75",
+      "carVideo":"https://youtu.be/_BoH5UOsgQg"
+    },
+    { 
+      "id": 20,
+      "carName": "MINI Cooper JCW",
+      "categoryId":3,
+      "description":"Perfomance Hatch",
+      "year":2022,
+      "milage":9800,
+      "amount":10000,
+      "carImage":"https://imgd.aeplcdn.com/227x128/n/cw/ec/39603/cooper-jcw-exterior-right-front-three-quarter-2.jpeg?q=75",
+      "carVideo":"https://youtu.be/3-UsnHUudYA"
+    }
+    ]
+  }

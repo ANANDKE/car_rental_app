@@ -1,0 +1,61 @@
+
+<div id="container-register">
+    <div id="title">
+        <i class="material-icons lock">lock</i> Register
+    </div>
+
+    <form (ngSubmit)="register()"  [formGroup]="registerForm" >
+        <div class="input">
+            <div class="input-addon">
+                <i class="material-icons">email</i>
+            </div>
+            <input id="email" name="email" formControlName="email" placeholder="Email" type="email">
+        </div>
+        <div *ngIf="this.registerForm.get('email')?.errors && this.registerForm?.touched ">
+            <p class="text-danger">Incorrect email</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="input"> 
+            <div class="input-addon">
+                <i class="material-icons">face</i>
+            </div>
+            <input id="username" name="uname" formControlName="uname" placeholder="Username" type="text">
+        </div>
+        <div *ngIf="this.registerForm.get('uname')?.errors && this.registerForm?.touched ">
+            <p class="text-danger">Incorrect username</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="input">
+            <div class="input-addon">
+                <i class="material-icons">vpn_key</i>
+            </div>
+            <input id="password" name="pswd"  formControlName="pswd" placeholder="Password" type="password" >
+        </div>
+        <!-- <div *ngIf="this.registerForm.get('pswd')?.errors && this.registerForm?.touched ">
+            <p class="text-danger">Incorrect password</p>
+        </div> -->
+        <div *ngIf="this.registerForm.get('pswd')?.errors && this.registerForm?.touched ">
+            <p class="text-danger">Incorrect password</p>
+        </div>
+
+        <div class="remember-me">
+            <input type="checkbox">
+            <span style="color: #757575">I accept Terms of Service</span>
+        </div>
+
+        <input type="submit"  value="Register" />
+    </form>
+
+    <div class="privacy">
+        <a href="#">Privacy Policy</a>
+    </div>
+
+    <div class="register">
+        <span style="color: #657575">Do you already have an account?</span>
+        <button id="register-link" routerLink=''>Log In here</button>
+    </div>
+</div>
